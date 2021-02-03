@@ -17,10 +17,6 @@ jobs:
           node-version: "12.x"
 
       - run: yarn
-      - name: algolia
-        env:
-          HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
-        run: yarn algolia
       - run: yarn build
 
       - name: Deploy
