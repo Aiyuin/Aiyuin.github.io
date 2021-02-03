@@ -1,0 +1,7 @@
+avatar:
+  url: /images/avatar.jpg # 你的头像图片地址
+  rounded: true
+  opacity: 1
+
+colors:
+  primary: "#000000"
