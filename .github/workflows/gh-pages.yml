@@ -16,9 +16,8 @@ jobs:
         with:
           node-version: "12.x"
 
-      - name: Generate
-        run: |
-          npm i && npx hexo g
+      - run: yarn
+      - run: yarn build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
