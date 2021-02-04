@@ -20,8 +20,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       
-      - run: yarn
-      - run: yarn build
+      - name: Generate
+        run: |
+          npm i && npx hexo g
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
