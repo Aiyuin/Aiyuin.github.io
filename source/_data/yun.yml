@@ -11,6 +11,10 @@ colors: #主题色
   primary: "#6200ee"
   selection_bg: "#8e71c1"
 
+social:
+
+pages:
+
 banner:
   enable: true
   title: 艾小艾的小站
@@ -23,6 +27,14 @@ banner:
     enable: true
     icon: icon-arrow-down-s-line
 
+reward:
+  enable: false
+  
+mourn:
+  enable: true
+  days:
+    - "2-14"
+    
 footer:
   since: 2020
   icon:
