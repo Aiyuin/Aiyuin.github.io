@@ -22,3 +22,20 @@ banner:
   go_down:
     enable: true
     icon: icon-arrow-down-s-line
+
+footer:
+  since: 2020
+  icon:
+    name: icon-cloud-line
+    animated: true
+    color: "#0078E7"
+  powered:
+    enable: false
+  beian:
+    enable: false
+    icp: 苏ICP备xxxxxxxx号
+  live_time:
+    enable: false
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: "2019-04-12T00:00:00"
