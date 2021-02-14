@@ -11,18 +11,6 @@ author: 艾小艾
 language: zh-CN
 timezone: ''
 
-banner:
-  enable: true
-  title: 艾小艾的小站
-  src: /js/ui/banner.js
-  border: true
-  cloud:
-    enable: true
-    color: "white"
-  go_down:
-    enable: true
-    icon: icon-arrow-down-s-line
-
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url: http://example.com
