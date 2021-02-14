@@ -33,7 +33,7 @@ reward:
 mourn:
   enable: true
   days:
-    - "2-14"
+    - "4-4"
     
 footer:
   since: 2020
