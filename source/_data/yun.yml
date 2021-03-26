@@ -51,3 +51,45 @@ footer:
     prefix: 本博客已萌萌哒地运行
     suffix: (●'◡'●)
     start_time: "2019-04-12T00:00:00"
+
+sidebar:
+  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-1.jpg
+  bg_position: bottom 3rem center
+  tagcloud:
+    enable: false
+    amount: 20
+
+wordcloud:
+  enable: true
+
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+    - path: https://aiyuin.github.io/
+      icon: icon-cloud-line
+      count: 你猜
+  custom:
+    title: 文档
+    path: https://aiyuin.github.io/
+    icon: icon-settings-linevv
+
+post_edit:
+  enable: false
+  url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
+
+creative_commons:
+  license: by-nc-sa
+  post: false
+  language: deed.zh
+  clipboard: false
