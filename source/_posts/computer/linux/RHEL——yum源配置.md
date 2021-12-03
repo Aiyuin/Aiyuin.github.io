@@ -1,12 +1,10 @@
 ---
 title: 红帽7yum源替换
 tags:
-  - RHEL learning
-  - 学习
-  - 笔记
+    - 学习
+    - 操作系统
 categories:
-  - 艾小艾的小笔记
-url: https://github.com/Aiyuin/Aiyuin.github.io/
+    - [艾小艾的学习,计算机,linux]
 date: 2021-03-26 12:00:00
 updated: 2021-03-26 17:00:00
 ---

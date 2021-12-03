@@ -120,6 +120,44 @@ social:
   #   icon: icon-send-plane-2-line
   #   color: black
 
+codeblock:
+  copy_btn: true
+  prismjs:
+    light: default
+    dark: tomorrow
+
+###
+cdn:
+  #pre: ""
+  pre: https://cdn.jsdelivr.net/gh/YunYouJun/yunyoujun.github.io
+  css:
+    yun-markdown-css: https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.25/dist/yun/yun-markdown.min.css
+    # github-markdown-css: https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.css
+  js:
+    base:
+    async:
+      iconfont: //at.alicdn.com/t/font_1140697_dxory92pb0h.js
+    defer:
+
+preload:
+  style:
+    - /css/hexo-theme-yun.css
+  script:
+    - /js/utils.js
+    - /js/hexo-theme-yun.js
+
+prefetch:
+  script:
+    - /js/sidebar.js
+
+dns_prefetch:
+  - https://cos.yunyoujun.cn
+
+# do more(TCP handshake...) than dns-fetch
+preconnect:
+#解析将要用到的域名的 DNS 地址
+###
+
 banner:
   enable: true
   title: 艾小艾的小站
@@ -131,6 +169,12 @@ banner:
   go_down:
     enable: true
     icon: icon-arrow-down-s-line
+
+cursor:
+  enable: true
+  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
 
 reward:
   enable: false
@@ -147,7 +191,7 @@ footer:
     animated: true
     color: "#0078E7"
   powered:
-    enable: false
+    enable: true
   beian:
     enable: false
     icp: 苏ICP备xxxxxxxx号
@@ -156,6 +200,13 @@ footer:
     prefix: 本博客已萌萌哒地运行
     suffix: (●'◡'●)
     start_time: "2019-04-12T00:00:00"
+    support:
+      enable: true
+      title: 又拍云
+      link: https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral
+      logo: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png
+      prefix: 本网站由
+      suffix: 提供 CDN 加速
 
 sidebar:
   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-1.jpg
@@ -191,4 +242,4 @@ menu:
 
 post_edit:
   enable: false
-  url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
+  url: 

@@ -5,9 +5,8 @@ updated: 2021-11-17 12:00:00
 email: 956954649@qq.com
 tags:
     - 学习
-    - 生活
 categories:
-    - 艾小艾的c学习
+    - [艾小艾的学习,计算机，编程，c]
 ---
 
 # 1、什么是sizeof

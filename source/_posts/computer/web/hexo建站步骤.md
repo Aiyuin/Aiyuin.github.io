@@ -5,9 +5,9 @@ updated: 2020-12-03 24:00:00
 email: 956954649@qq.com
 tags:
     - 学习
-    - 生活
+    - web
 categories:
-    - 艾小艾的建站历程
+    - [艾小艾的建站]
 ---
 
 1. 安装node.js
