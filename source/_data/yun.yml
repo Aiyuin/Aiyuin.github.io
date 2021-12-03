@@ -1,0 +1,95 @@
+avatar:
+  url: /images/avatar.jpg # 你的头像图片地址
+  rounded: true
+  opacity: 
+  status:
+    enable: true
+    emoji: 😭
+    message: 不想上学
+
+colors: #主题色
+  primary: "#6200ee"
+  selection_bg: "#8e71c1"
+
+social:
+
+pages:
+
+banner:
+  enable: true
+  title: 艾小艾的小站
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+reward:
+  enable: false
+  
+mourn:
+  enable: true
+  days:
+    - "4-4"
+    
+footer:
+  since: 2020
+  icon:
+    name: icon-cloud-line
+    animated: true
+    color: "#0078E7"
+  powered:
+    enable: false
+  beian:
+    enable: false
+    icp: 苏ICP备xxxxxxxx号
+  live_time:
+    enable: false
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: "2019-04-12T00:00:00"
+
+sidebar:
+  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-1.jpg
+  bg_position: bottom 3rem center
+  tagcloud:
+    enable: false
+    amount: 20
+
+wordcloud:
+  enable: true
+
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+    - path: https://aiyuin.github.io/
+      icon: icon-cloud-line
+      count: 你猜
+  custom:
+    title: 文档
+    path: https://aiyuin.github.io/
+    icon: icon-settings-linevv
+
+post_edit:
+  enable: false
+  url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
+
+creative_commons:
+  license: by-nc-sa
+  post: false
+  language: deed.zh
+  clipboard: false
