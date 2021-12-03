@@ -1,3 +1,4 @@
+#头像界面
 avatar:
   url: /images/avatar.jpg # 你的头像图片地址
   rounded: true
@@ -7,13 +8,117 @@ avatar:
     emoji: 😭
     message: 不想上学
 
-colors: #主题色
+colors:
   primary: "#6200ee"
-  selection_bg: "#8e71c1"
+  # bg: "#F5F5F5"
+  selection_bg: "#8e71c1" # 选取文字时的背景色
+  # 标签云中标签的起始色和结束色
+  # tag_start_color:
+  # tag_end_color:
 
-social:
+#可以为你的标签指定色彩，默认色 #333
+# tags:
+#   Vue: "#4fc08d"
+#   Hexo: "#0E834D"
+#   CSS: "#5298d1"
+#   Node.js: "#026E00"
+#   Git: "#F14E32"
+#   React: "#61dafb"
+#   Python: "#3776ab"
+#   PHP: "#8892BF"
+#   VS Code: "#0066B8"
+#   JavaScript: "#F4DF4F"
+#   TypeScript: "#317AC6"
+#   Laravel: "#F4645F"
 
+#categories:
+  #笔记: dimgray
+
+#设置网站图标（确保你的 favicon.ico 文件已放置于 source 文件夹下）
+#favicon: /favicon.ico
+
+# fireworks:
+#   enable: true
+#   colors:
+#     - "102, 167, 221"
+#     - "62, 131, 225"
+#     - "33, 78, 194"
+
+#设置您的文章的分享版权
+creative_commons:
+  license: by-nc-sa
+  post: true
+  language: deed.zh
+  clipboard: true
+
+#侧边栏页面链接：
 pages:
+
+#链接
+social:
+  # - name: RSS
+  #   # set rss in your root config
+  #   # https://github.com/hexojs/hexo-generator-feed
+  #   link: /atom.xml # config.feed.path
+  #   icon: icon-rss-line
+  #   color: orange
+  # - name: QQ
+  #   # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+  #   link: https://wpa.qq.com/msgrd?v=3&uin=910426929&site=qq&menu=yes
+  #   icon: icon-qq-line
+  #   color: "#12B7F5"
+  # - name: GitHub
+  #   link: https://github.com/YunYouJun
+  #   icon: icon-github-line
+  #   color: "#181717"
+  # - name: E-Mail
+  #   link: mailto:me@yunyoujun.cn
+  #   icon: icon-mail-line
+  #   color: "#8E71C1"
+  # - name: 微博
+  #   link: https://weibo.com/jizhideyunyoujun
+  #   icon: icon-weibo-line
+  #   color: "#E6162D"
+  # - name: 豆瓣
+  #   link: https://www.douban.com/people/yunyoujun/
+  #   icon: icon-douban-line
+  #   color: "#007722"
+  # - name: 网易云音乐
+  #   link: https://music.163.com/#/user/home?id=247102977
+  #   icon: icon-netease-cloud-music-line
+  #   color: "#C10D0C"
+  # - name: 知乎
+  #   link: https://www.zhihu.com/people/yunyoujun/
+  #   icon: icon-zhihu-line
+  #   color: "#0084FF"
+  # - name: 哔哩哔哩动画
+  #   link: https://space.bilibili.com/1579790
+  #   icon: icon-bilibili-line
+  #   color: "#FF8EB3"
+  # - name: POPI
+  #   link: https://www.popiask.cn/elpsycn
+  #   icon: icon-questionnaire-line
+  #   color: "#525252"
+  # - name: 微信公众号
+  #   link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
+  #   icon: icon-wechat-2-line
+  #   color: "#1AAD19"
+  # - name: Twitter
+  #   link: https://twitter.com/YunYouJun
+  #   icon: icon-twitter-line
+  #   color: "#1da1f2"
+  # - name: Telegram
+  #   link: https://t.me/YunYouJun
+  #   icon: icon-telegram-line
+  #   color: "#0088CC"
+  # - name: Telegram Channel
+  #   link: https://t.me/elpsycn
+  #   icon: icon-telegram-fill
+  #   color: "#0088CC"
+  # - name: Travelling
+  #   link: https://travellings.link
+  #   icon: icon-send-plane-2-line
+  #   color: black
 
 banner:
   enable: true
@@ -87,9 +192,3 @@ menu:
 post_edit:
   enable: false
   url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
-
-creative_commons:
-  license: by-nc-sa
-  post: false
-  language: deed.zh
-  clipboard: false
