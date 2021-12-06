@@ -1,12 +1,7 @@
-#头像界面
+# #头像界面
 avatar:
   url: /images/avatar.jpg # 你的头像图片地址
   rounded: true
-  opacity: 
-  status:
-    enable: true
-    emoji: 😭
-    message: 不想上学
 
 colors:
   primary: "#6200ee"
@@ -14,35 +9,35 @@ colors:
   selection_bg: "#8e71c1" # 选取文字时的背景色
   # 标签云中标签的起始色和结束色
   # tag_start_color:
-  # tag_end_color:
+  tag_end_color:
 
-#可以为你的标签指定色彩，默认色 #333
-# tags:
-#   Vue: "#4fc08d"
-#   Hexo: "#0E834D"
-#   CSS: "#5298d1"
-#   Node.js: "#026E00"
-#   Git: "#F14E32"
-#   React: "#61dafb"
-#   Python: "#3776ab"
-#   PHP: "#8892BF"
-#   VS Code: "#0066B8"
-#   JavaScript: "#F4DF4F"
-#   TypeScript: "#317AC6"
-#   Laravel: "#F4645F"
+# 可以为你的标签指定色彩，默认色 #333
+# # tags:
+# #   Vue: "#4fc08d"
+# #   Hexo: "#0E834D"
+# #   CSS: "#5298d1"
+# #   Node.js: "#026E00"
+# #   Git: "#F14E32"
+# #   React: "#61dafb"
+# #   Python: "#3776ab"
+# #   PHP: "#8892BF"
+# #   VS Code: "#0066B8"
+# #   JavaScript: "#F4DF4F"
+# #   TypeScript: "#317AC6"
+# #   Laravel: "#F4645F"
 
-#categories:
-  #笔记: dimgray
+# #categories:
+#   #笔记: dimgray
 
-#设置网站图标（确保你的 favicon.ico 文件已放置于 source 文件夹下）
-#favicon: /favicon.ico
+# #设置网站图标（确保你的 favicon.ico 文件已放置于 source 文件夹下）
+# #favicon: /favicon.ico
 
-# fireworks:
-#   enable: true
-#   colors:
-#     - "102, 167, 221"
-#     - "62, 131, 225"
-#     - "33, 78, 194"
+# # fireworks:
+# #   enable: true
+# #   colors:
+# #     - "102, 167, 221"
+# #     - "62, 131, 225"
+# #     - "33, 78, 194"
 
 #设置您的文章的分享版权
 creative_commons:
@@ -126,18 +121,18 @@ codeblock:
     light: default
     dark: tomorrow
 
-###
-cdn:
-  #pre: ""
-  pre: https://cdn.jsdelivr.net/gh/YunYouJun/yunyoujun.github.io
-  css:
-    yun-markdown-css: https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.25/dist/yun/yun-markdown.min.css
-    # github-markdown-css: https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.css
-  js:
-    base:
-    async:
-      iconfont: //at.alicdn.com/t/font_1140697_dxory92pb0h.js
-    defer:
+#加载之后头像显示不出来
+# cdn:
+#   #pre: ""
+#   pre: https://cdn.jsdelivr.net/gh/YunYouJun/yunyoujun.github.io
+#   css:
+#     yun-markdown-css: https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.25/dist/yun/yun-markdown.min.css
+#     # github-markdown-css: https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.css
+#   js:
+#     base:
+#     async:
+#       iconfont: //at.alicdn.com/t/font_1140697_dxory92pb0h.js
+#     defer:
 
 preload:
   style:
@@ -150,11 +145,11 @@ prefetch:
   script:
     - /js/sidebar.js
 
-dns_prefetch:
-  - https://cos.yunyoujun.cn
+# dns_prefetch:
+#   - https://cos.yunyoujun.cn
 
 # do more(TCP handshake...) than dns-fetch
-preconnect:
+#preconnect:
 #解析将要用到的域名的 DNS 地址
 ###
 
