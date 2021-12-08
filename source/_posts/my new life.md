@@ -29,3 +29,4 @@ categories:
 ```
 你好啊
 ```
+<script type="text/javascript" color="0,0,255" pointColor="0,0,255" opacity='0.7' zIndex="2" count="66" src="https://cdn.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js"></script>

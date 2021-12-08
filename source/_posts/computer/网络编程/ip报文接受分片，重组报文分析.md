@@ -2,12 +2,12 @@
 title: ip数据包分片重组问题
 date: 2021-11-17 00:00:00
 updated: 2021-11-17 12:00:00
-email: [956954649@qq.com](mailto:956954649@qq.com) tags:
-
-- 学习
-- 生活
-  categories:
-- 艾小艾的生活日志
+email: 956954649@qq.com
+tags:
+    - 学习
+    - 生活
+categories:
+    - 艾小艾的生活日志
 
 ---
 
